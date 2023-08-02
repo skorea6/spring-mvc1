@@ -2,7 +2,7 @@
 #### 인프런 강의: [스프링 MVC 1편 - 백엔드 웹 개발 핵심 기술](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-mvc-1)
 
 
-## 기본 정보
+## JSP
 * /WEB-INF
   - 이 경로안에 JSP가 있으면 외부에서 직접 JSP를 호출할 수 없다. 항상 컨트롤러를 통해서 JSP를 호출하도록 만들 수 있다.
 
