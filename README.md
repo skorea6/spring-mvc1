@@ -184,6 +184,7 @@ public String mappingPath(@PathVariable String userId)
 
 
 ## 스프링 부트 기본 메시지 컨버터
+- 작동 순서: 
   - 0 = ByteArrayHttpMessageConverter (클래스 타입: byte[] , 미디어타입: */*)
   - 1 = StringHttpMessageConverter (클래스 타입: String , 미디어타입: */*)
   - 2 = MappingJackson2HttpMessageConverter (클래스 타입: 객체 또는 HashMap , 미디어타입 application/json 관련)
